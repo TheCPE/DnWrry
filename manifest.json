@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "DnWrry",
+  "description": "This extension shows allows you to to change the opacity on a screen for privacy.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Trying to be private?"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
+   
